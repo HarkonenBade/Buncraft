@@ -1,0 +1,2 @@
+DiscordIntegration-mc1.12.2-3.0.5.jar
+mods.txt

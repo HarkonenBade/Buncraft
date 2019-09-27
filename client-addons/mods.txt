@@ -1,0 +1,2 @@
+ChunkAnimator-MC1.12-1.2.jar
+mods.txt
