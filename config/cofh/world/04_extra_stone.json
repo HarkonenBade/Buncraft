@@ -1,0 +1,51 @@
+{
+	"dependencies": "chisel",
+	"populate": {
+		"marble": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:marble2",
+					"metadata": 7,
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"limestone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:limestone2",
+					"metadata": 7,
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+	}
+}

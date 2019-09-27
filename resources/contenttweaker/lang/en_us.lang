@@ -1,0 +1,23 @@
+entity.stonechicken.name=Stone Chicken
+entity.dirtchicken.name=Dirt Chicken
+entity.granitechicken.name=Granite Chicken
+entity.dioritechicken.name=Diorite Chicken
+entity.andesitechicken.name=Andesite Chicken
+entity.basaltchicken.name=Basalt Chicken
+entity.marblechicken.name=Marble Chicken
+entity.brickchicken.name=Brick Chicken
+entity.thaumiumchicken.name=Thaumium Chicken
+
+botania.entry.chickens=Chickens
+
+botania.page.chickens_intro=Great magi of the past have figured out ways to infuse the common mineral chicken (§oGallus gallus mineralis§r) with mana, letting it produce infused materials. Though these processes are difficult and costly, they can provide a dedicated magi with a nigh unlimited supply of material to work with.
+
+botania.page.chicken_grow_intro=After many years of waiting and cursing at their chickens to breed faster, the magi figured out how to supercharge their chickens with extra mana in order to speed the process.
+
+botania.page.mana_chicken=Manasteel Chicken
+botania.page.terra_chicken=Terrasteel Chicken
+botania.page.ele_chicken=Elementium Chicken
+botania.page.chicken_growth=Chicken Growth Acceleration
+
+
+fluid.hardened_glass=Molten Hardened Glass
