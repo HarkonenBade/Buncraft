@@ -443,11 +443,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "minecraft:coal_ore",
+      "itemID": "minecraft:coal",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "minecraft:coal_ore",
+      "itemID": "minecraft:coal",
       "metaID": 0
     },
     "spawn_type": "NONE",
