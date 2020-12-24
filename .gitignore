@@ -18,3 +18,5 @@ options.txt
 servers.dat
 usercache.json
 usernamecache.json
+config/thaumicjei_itemstack_aspects.json
+config/jei/worldSettings.cfg
