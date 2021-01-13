@@ -7,6 +7,10 @@ entity.basaltchicken.name=Basalt Chicken
 entity.marblechicken.name=Marble Chicken
 entity.brickchicken.name=Brick Chicken
 entity.thaumiumchicken.name=Thaumium Chicken
+entity.thaumiccrystalchicken.name=Thaumic Crystal Chicken
+entity.electrotinechicken.name=Electrotine Chicken
+
+item.contenttweaker.thaumiccrystal.name=Thaumic Crystal
 
 botania.entry.chickens=Chickens
 

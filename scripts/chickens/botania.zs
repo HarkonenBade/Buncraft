@@ -5,8 +5,8 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-import scripts.chicken_util.chicken;
-import scripts.chicken_util.maxed;
+import scripts.chickens.chicken_util.chicken;
+import scripts.chickens.chicken_util.maxed;
 
 import mods.botania.Lexicon;
 import mods.botania.RuneAltar;
@@ -56,20 +56,8 @@ Lexicon.addRunePage("botania.page.mana_chicken",
 Lexicon.addRecipeMapping(mana_chicken, "botania.entry.chickens", 1); 
 
 
-var agg = AgglomerationRecipe.create()
-                             .output(terra_chicken)
-                             .inputs([maxed(mana_chicken),
-                                      <botania:storage:1>,
-                                      <botania:storage:1>,
-                                      <botania:rune:11>] as IIngredient[])
-                             .manaCost(1000000);
-
-Agglomeration.addRecipe(agg);
-AgglomerationPage.add("botania.page.terra_chicken", "botania.entry.chickens", 2, agg);
-
-
 ElvenTrade.addRecipe([ele_chicken],
-                     [maxed(terra_chicken),
+                     [maxed(mana_chicken),
                       <botania:storage:2>*2,
                       <botania:manaresource:9>*2,
                       <botania:manaresource:5>]);
@@ -78,10 +66,23 @@ Lexicon.addElvenPage("botania.page.ele_chicken",
                      "botania.entry.chickens",
                      2,
                      [ele_chicken],
-                     [[maxed(terra_chicken),
+                     [[maxed(mana_chicken),
                        <botania:storage:2>*2,
                        <botania:manaresource:9>*2,
-                       <botania:manaresource:5>]]);
+                       <botania:rune:11>]]);
+
+
+var agg = AgglomerationRecipe.create()
+                             .output(terra_chicken)
+                             .inputs([maxed(ele_chicken),
+                                      <botania:storage:1>,
+                                      <botania:storage:1>,
+                                      <botania:manaresource:5>,
+                                      <botania:manaresource:5>] as IIngredient[])
+                             .manaCost(4000000);
+
+Agglomeration.addRecipe(agg);
+AgglomerationPage.add("botania.page.terra_chicken", "botania.entry.chickens", 3, agg);
 
 
 RuneAltar.addRecipe(boosted(mana_chicken),
@@ -91,8 +92,8 @@ RuneAltar.addRecipe(boosted(mana_chicken),
                     25000);
 
 
-RuneAltar.addRecipe(boosted(terra_chicken),
-                    [terra_chicken,
+RuneAltar.addRecipe(boosted(ele_chicken),
+                    [ele_chicken,
                      <minecraft:wheat_seeds>,
                      <minecraft:wheat_seeds>,
                      <minecraft:wheat_seeds>,
@@ -100,8 +101,8 @@ RuneAltar.addRecipe(boosted(terra_chicken),
                     250000);
 
 
-RuneAltar.addRecipe(boosted(ele_chicken),
-                    [ele_chicken,
+RuneAltar.addRecipe(boosted(terra_chicken),
+                    [terra_chicken,
                      <minecraft:wheat_seeds>,
                      <minecraft:wheat_seeds>,
                      <minecraft:wheat_seeds>,
@@ -117,17 +118,17 @@ Lexicon.addRunePage("botania.page.chicken_growth",
                     "botania.entry.chickens",
                     4,
                     [boosted(mana_chicken),
-                     boosted(terra_chicken),
-                     boosted(ele_chicken)],
+                     boosted(ele_chicken),
+                     boosted(terra_chicken)],
                     [[mana_chicken,
                       <minecraft:wheat_seeds>,
                       <minecraft:wheat_seeds>],
-                     [terra_chicken,
+                     [ele_chicken,
                       <minecraft:wheat_seeds>,
                       <minecraft:wheat_seeds>,
                       <minecraft:wheat_seeds>,
                       <minecraft:wheat_seeds>],
-                     [ele_chicken,
+                     [terra_chicken,
                       <minecraft:wheat_seeds>,
                       <minecraft:wheat_seeds>,
                       <minecraft:wheat_seeds>,

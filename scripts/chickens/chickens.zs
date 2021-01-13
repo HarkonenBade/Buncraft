@@ -1,13 +1,11 @@
 #loader contenttweaker
-#modloaded chickens
-#modloaded chisel
-#modloaded morechickens
-#modloaded thaumcraft
+#modloaded chickens chisel morechickens thaumcraft
 
 import crafttweaker.item.IItemStack;
 import mods.contenttweaker.ChickenFactory;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.ResourceLocation;
+
 
 
 function spawn_chicken(name as string,
@@ -49,7 +47,8 @@ bred_chicken("marblechicken", <item:chisel:marble2:7>, "d8dcdd", "cfd4d6", "cont
 
 bred_chicken("brickchicken", <item:minecraft:brick>, "af9d97", "7c4536", "chickens:claychicken", "chickens:coalchicken");
 
-val thaumiumchicken = ChickenFactory.createChicken("thaumiumchicken", Color.fromHex("6a588c"), <item:thaumcraft:ingot>);
-thaumiumchicken.setForegroundColor(Color.fromHex("6a588c"));
-thaumiumchicken.setSpawnType("NONE");
-thaumiumchicken.register();
+spawn_chicken("thaumiumchicken", <item:thaumcraft:ingot>, "6a588c", "6a588c", "NONE");
+spawn_chicken("thaumiccrystalchicken", <item:contenttweaker:thaumiccrystal>, "cccccc", "b0b0b0", "NONE");
+
+bred_chicken("electrotinechicken", <item:projectred-core:resource_item:105>, "3db0ef", "0e73aa", "chickens:redstonechicken", "chickens:lapischicken");
+

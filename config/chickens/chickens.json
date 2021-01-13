@@ -299,11 +299,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "minecraft:quartz_ore",
+      "itemID": "minecraft:quartz",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "minecraft:quartz_ore",
+      "itemID": "minecraft:quartz",
       "metaID": 0
     },
     "spawn_type": "HELL",
@@ -587,11 +587,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "minecraft:diamond_ore",
+      "itemID": "minecraft:diamond",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "minecraft:diamond_ore",
+      "itemID": "minecraft:diamond",
       "metaID": 0
     },
     "spawn_type": "NONE",
@@ -667,11 +667,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "minecraft:emerald_ore",
+      "itemID": "minecraft:emerald",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "minecraft:emerald_ore",
+      "itemID": "minecraft:emerald",
       "metaID": 0
     },
     "spawn_type": "NONE",

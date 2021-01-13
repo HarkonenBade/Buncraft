@@ -142,8 +142,8 @@
     "Name": "amberchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "thaumcraft:ore_amber",
-    "Drop Item": "thaumcraft:ore_amber",
+    "Lay Item": "thaumcraft:amber",
+    "Drop Item": "thaumcraft:amber",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:waterchicken",
     "Parent 2": "chickens:logchicken"
@@ -322,8 +322,8 @@
     "Name": "cinnabarChicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "thaumcraft:ore_cinnabar",
-    "Drop Item": "thaumcraft:ore_cinnabar",
+    "Lay Item": "thaumcraft:quicksilver",
+    "Drop Item": "thaumcraft:quicksilver",
     "Spawn Type": "NONE",
     "Parent 1": "morechickens:silverorechicken",
     "Parent 2": "morechickens:leadchicken"
@@ -420,30 +420,30 @@
   },
   "morechickens:peridotchicken": {
     "Name": "peridotchicken",
-    "Is Enabled": false,
+    "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "biomesoplenty:gem:2",
-    "Drop Item": "biomesoplenty:gem:2",
+    "Lay Item": "projectred-core:resource_item:202",
+    "Drop Item": "projectred-core:resource_item:202",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:quartzchicken",
     "Parent 2": "chickens:greenchicken"
   },
   "morechickens:rubychicken": {
     "Name": "rubychicken",
-    "Is Enabled": false,
+    "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "biomesoplenty:gem:1",
-    "Drop Item": "biomesoplenty:gem:1",
+    "Lay Item": "projectred-core:resource_item:200",
+    "Drop Item": "projectred-core:resource_item:200",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:redchicken",
     "Parent 2": "morechickens:aluminumchicken"
   },
   "morechickens:sapphirechicken": {
     "Name": "sapphirechicken",
-    "Is Enabled": false,
+    "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "biomesoplenty:gem:6",
-    "Drop Item": "biomesoplenty:gem:6",
+    "Lay Item": "projectred-core:resource_item:201",
+    "Drop Item": "projectred-core:resource_item:201",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:bluechicken",
     "Parent 2": "morechickens:aluminumchicken"
@@ -497,5 +497,25 @@
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""
+  },
+  "morechickens:siliconchicken": {
+    "Name": "siliconchicken",
+    "Is Enabled": false,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "refinedstorage:silicon",
+    "Drop Item": "refinedstorage:silicon",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:claychicken",
+    "Parent 2": "chickens:sandchicken"
+  },
+  "morechickens:quartzenrichedironchicken": {
+    "Name": "quartzenrichedironchicken",
+    "Is Enabled": false,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "refinedstorage:quartz_enriched_iron",
+    "Drop Item": "refinedstorage:quartz_enriched_iron",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:quartzchicken",
+    "Parent 2": "chickens:ironchicken"
   }
 }
