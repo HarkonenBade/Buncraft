@@ -1,3 +1,18 @@
+## Version 2.2.1
+### Additions
+* Added netherrack chicken
+* Added recipe to craft dye chickens directly as roost chickens
+
+
+### Changes
+* Vein miner config updates with more blocks permitted
+* Fixed the breeding of electrotine chickens
+* Corrected the recipe for elementium chickens to make them less expensive
+* Hopefully enabled additional tcon mats as projectile types
+
+### Removals
+
+
 ## Version 2.2
 
 ### Additions
