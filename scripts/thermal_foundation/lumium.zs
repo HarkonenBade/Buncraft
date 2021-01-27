@@ -11,6 +11,7 @@ testMat.representativeItem = <item:thermalfoundation:material:166>;
 testMat.addHeadMaterialStats(300, 10.0f, 7.0f, 5);
 testMat.addHandleMaterialStats(1, 25);
 testMat.addExtraMaterialStats(300);
+testMat.addProjectileMaterialStats();
 testMat.addMaterialTrait("holy", null);
 testMat.addMaterialTrait("glowing", "head");
 testMat.addMaterialTrait("holy", "head");

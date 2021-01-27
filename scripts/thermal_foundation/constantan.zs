@@ -11,6 +11,7 @@ testMat.representativeItem = <item:thermalfoundation:material:164>;
 testMat.addHeadMaterialStats(350, 5.8f, 3.2f, 4);
 testMat.addHandleMaterialStats(1.1, 40);
 testMat.addExtraMaterialStats(150);
+testMat.addProjectileMaterialStats();
 testMat.addMaterialTrait("established", null);
 testMat.addMaterialTrait("aridiculous", "head");
 testMat.addMaterialTrait("established", "head");

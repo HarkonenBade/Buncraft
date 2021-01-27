@@ -45,11 +45,12 @@
         "naturesaura:ancient_bark/0",
         "naturesaura:ancient_leaves/0",
         "naturesaura:ancient_log/0",
+        "tconstruct:slime_congealed",
         "tconstruct:slime_leaves",
         "thaumcraft:leaves_greatwood",
         "thaumcraft:leaves_silverwood",
-        "thaumcraft:log_greatwood/0",
-        "thaumcraft:log_silverwood/0"
+        "thaumcraft:log_greatwood",
+        "thaumcraft:log_silverwood"
       ]
     },
     "hoe": {
@@ -141,8 +142,10 @@
         "thermalfoundation:tool.pickaxe_tin"
       ],
       "blocklist": [
+        "chisel:basalt2",
+        "chisel:limestone2",
+        "chisel:marble2",
         "minecraft:coal_ore",
-        "minecraft:cobblestone_wall",
         "minecraft:diamond_ore",
         "minecraft:emerald_ore",
         "minecraft:glowstone",
@@ -151,10 +154,12 @@
         "minecraft:lapis_ore",
         "minecraft:lit_redstone_ore",
         "minecraft:mossy_cobblestone",
-        "minecraft:nether_brick_fence",
         "minecraft:obsidian",
         "minecraft:quartz_ore",
         "minecraft:redstone_ore",
+        "minecraft:stone/1",
+        "minecraft:stone/3",
+        "minecraft:stone/5",
         "railcraft:ore/0",
         "railcraft:ore/1",
         "railcraft:ore/2",
@@ -239,6 +244,7 @@
         "natura:overworld_leaves2",
         "natura:redwood_leaves",
         "naturesaura:ancient_leaves/0",
+        "naturesaura:golden_leaves",
         "tconstruct:slime_leaves",
         "thaumcraft:leaves_greatwood",
         "thaumcraft:leaves_silverwood"

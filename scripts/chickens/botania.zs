@@ -60,7 +60,7 @@ ElvenTrade.addRecipe([ele_chicken],
                      [maxed(mana_chicken),
                       <botania:storage:2>*2,
                       <botania:manaresource:9>*2,
-                      <botania:manaresource:5>]);
+                      <botania:rune:11>]);
 
 Lexicon.addElvenPage("botania.page.ele_chicken",
                      "botania.entry.chickens",

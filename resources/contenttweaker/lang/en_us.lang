@@ -9,6 +9,7 @@ entity.brickchicken.name=Brick Chicken
 entity.thaumiumchicken.name=Thaumium Chicken
 entity.thaumiccrystalchicken.name=Thaumic Crystal Chicken
 entity.electrotinechicken.name=Electrotine Chicken
+entity.netherrackchicken.name=Netherrack Chicken
 
 item.contenttweaker.thaumiccrystal.name=Thaumic Crystal
 
